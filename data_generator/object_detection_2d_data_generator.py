@@ -472,7 +472,7 @@ class DataGenerator:
             # Loop over all images in this dataset.
             for image_id in it:
 
-                filename = '{}'.format(image_id) + '.png'
+                filename = '{}'.format(image_id) + '.jpg'
                 self.filenames.append(os.path.join(images_dir, filename))
 
                 if not annotations_dir is None:
